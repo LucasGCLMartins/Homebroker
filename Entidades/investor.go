@@ -1,4 +1,4 @@
-package entity
+package Entidades
 
 type Investor struct {
 	ID            string
