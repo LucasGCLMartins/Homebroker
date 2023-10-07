@@ -1,4 +1,4 @@
-package entity
+package Entidades
 
 type Order struct {
 	ID            string
