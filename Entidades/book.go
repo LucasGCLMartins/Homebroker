@@ -27,11 +27,11 @@ func (b *Book) Trade() {
 	buyOrders := make(map[string]*OrderQueue)
 	sellOrders := make(map[string]*OrderQueue)
 
-
+	heap.Init(sellOrders[asset])
+	heap.Init(buyOrders[asset])
+	
 	for order := range b.OrdersChan {
 		asset := order.Asset.ID
-		heap.Init(sellOrders[asset])
-		heap.Init(buyOrders[asset])
 
 		if order.OrderType == "BUY" {
 			buyOrders[asset].Push(order)
