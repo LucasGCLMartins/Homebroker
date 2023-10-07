@@ -1,4 +1,4 @@
-package entity
+package Entidades
 
 type OrderQueue struct {
 	Orders []*Order
