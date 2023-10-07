@@ -1,4 +1,4 @@
-package entity
+package Entidades
 
 type Asset struct {
 	ID           string
