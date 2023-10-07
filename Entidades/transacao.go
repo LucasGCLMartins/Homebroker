@@ -1,7 +1,7 @@
 package Entidades
 
 import (
-	"time!
+	"time"
 	"github.com/google/uuid"
 )
 
