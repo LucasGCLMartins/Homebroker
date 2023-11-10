@@ -233,7 +233,7 @@ func TestNoMatch(t *testing.T) {
 	wg.Wait()
 
 	assert := assert.New(t)
-	assert.Equal("OPEN", order.Status, "Order 1 should be closed")
+	assert.Equal("OPEN", order.Status, "Order 1 should be OPEN")
 	assert.Equal("OPEN", order2.Status, "Order 2 should be OPEN")
 	assert.Equal(3, order.PendingShares, "Order 1 should have 3 PendingShares")
 	assert.Equal(5, order2.PendingShares, "Order 2 should have 5 PendingShares")
