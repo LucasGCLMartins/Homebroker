@@ -7,7 +7,6 @@ import { WalletsModule } from './wallets/wallets.module';
 import { OrdersModule } from './orders/orders.module';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule } from '@nestjs/config';
-import { SimulateAssetsPriceCommand } from './simulate-assets-price.command';
 
 @Module({
   imports: [
@@ -19,6 +18,6 @@ import { SimulateAssetsPriceCommand } from './simulate-assets-price.command';
     MongooseModule.forRoot(process.env.DATABASE_URL),
   ],
   controllers: [AppController],
-  providers: [AppService, SimulateAssetsPriceCommand],
+  providers: [AppService],
 })
 export class AppModule {}
