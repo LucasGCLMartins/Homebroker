@@ -3,10 +3,10 @@
 [![Watch the video](https://i.imgur.com/905z5C5.png)](https://www.youtube.com/watch?v=ys00FOJ9Eno)
 
 # COMO RODAR
-  -É necessário executar 3 contêiners para cada uma das pastas do programa e elas devem ser executadas na ordem abaixo
-    - GO
-    - Nest
-    - Next
+  -É necessário executar 3 contêiners para cada uma das pastas do programa e elas devem ser executadas na ordem abaixo:<br>
+    - GO<br>
+    - Nest<br>
+    - Next<br>
 
 # Semana 25/09 até 29/09
   -Ambiente teste do Go está funcionando e a API foi testada com sucesso, ao pesquisar um ativo por nome ele retorna o historico de preços dos ultimos 30 dias registrados<br>Exemplo:<br>
